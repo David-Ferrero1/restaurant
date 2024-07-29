@@ -4,6 +4,8 @@ Maquette figma faite, début intégration.
 
 ## Loader
 Mise en place d'un loader
+Top bar
+Header (Mobile first)
 
 ## Truc et astuce
 

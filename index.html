@@ -64,11 +64,72 @@
     </section>
 
     <!-- Header -->
-     <header class="header">
+     <header class="header" data-header>
         <div class="container">
             <a href="#" class="logo">
-                <img src="assets/images/logo.svg" width="160" height="50" alt="logo du restaurant">
+                <img src="assets/images/logo6.png" width="160" height="50" alt="logo du restaurant">
             </a>
+            <nav class="navbar active" data-navbar>
+                <button class="close-btn" aria-label="close menu" data-nav-toggler>
+                    <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                </button>
+                <a href="#" class="logo">
+                    <img src="assets/images/logo6.png" width="160" height="50" alt="logo du restaurant">
+                </a>
+                <ul class="navbar-list">
+                    <li class="navbar-item">
+                        <a href="#home" class="navbar-link hover-underline active">
+                            <div class="separator"></div>
+                            <span class="span">Accueil</span>
+                        </a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#menu" class="navbar-link hover-underline">
+                            <div class="separator"></div>
+                            <span class="span">Menus</span>
+                        </a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#about" class="navbar-link hover-underline">
+                            <div class="separator"></div>
+                            <span class="span">A propos</span>
+                        </a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link hover-underline">
+                            <div class="separator"></div>
+                            <span class="span">Nos Chefs</span>
+                        </a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link hover-underline">
+                            <div class="separator"></div>
+                            <span class="span">Contact</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="text-center">
+                    <p class="headline-1 navbar-title">Venez nous voir</p>
+                    <adress class="body-4">
+                        Restaurant St, Voutes de la Major, <br>Marseille 13001, FR
+                    </adress>
+                    <p class="body-4 navbar-text">Tous les jours : 8h00 à 22h00</p>
+                    <a href="mailto:booking@restaurant-ferrero.com" class="sidebar-link">booking@restaurant-ferrero.com</a>
+                    <div class="separator"></div>
+                    <p class="contact-label">Demande de résa</p>
+                    <a href="tel:+33612345678" class="body-1 contact-number hover-underline">+33 6 12 34 56 78</a>
+                </div>
+            </nav>
+            <a href="#" class="btn btn-secondary">
+                <span class="text text-1">Trouver votre table</span>
+                <span class="text text-2" aria-hidden="true">Trouver votre table</span>
+            </a>
+            <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+                <span class="line line-1"></span>
+                <span class="line line-2"></span>
+                <span class="line line-3"></span>
+            </button>
+            <div class="overlay" data-nav-toggler data-overlay></div>
         </div>
      </header>
 
